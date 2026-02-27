@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
-import { personalInfo } from "../data/data";
+import { personalInfo } from "@/data/data";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 

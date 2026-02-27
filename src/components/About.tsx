@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { personalInfo } from "../data/data";
+import { personalInfo } from "@/data/data";
 
 export default function About() {
   return (

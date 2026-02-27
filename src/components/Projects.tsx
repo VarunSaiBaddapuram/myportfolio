@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { projects } from "../data/data";
 import { Github, ExternalLink, Code2, Sparkles } from "lucide-react";
-import type { ProjectItem} from "../types/Portfolio"
+import type { ProjectItem} from "@/types/Portfolio"
 
 export default function Projects() {
   return (

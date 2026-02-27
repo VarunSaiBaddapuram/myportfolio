@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { education, certifications } from "../data/data";
 import { GraduationCap, Award, Calendar, BookOpen } from "lucide-react";
-import type { EducationItem, CertificationItem } from "../types/Portfolio";
+import type { EducationItem, CertificationItem } from "@/types/Portfolio";
 
 export default function Education() {
   return (

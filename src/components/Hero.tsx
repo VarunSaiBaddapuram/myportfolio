@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
-import { personalInfo } from "../data/data";
+import { personalInfo } from "@/data/data";
 
 export default function Hero() {
   return (
