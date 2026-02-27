@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { projects } from "../data/data";
 import { Github, ExternalLink, Code2, Sparkles } from "lucide-react";
+import type { ProjectItem} from "../types/Portfolio"
 
 export default function Projects() {
   return (
@@ -38,7 +39,7 @@ export default function Projects() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {projects.map((project, idx) => (
+          {projects.map((project: ProjectItem, idx: number) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
