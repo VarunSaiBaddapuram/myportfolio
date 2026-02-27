@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { experience } from "../data/data";
 import { Briefcase, Calendar, MapPin, CheckCircle2 } from "lucide-react";
+import type { ExperienceItem } from "@/types/Portfolio";
 
 export default function Experience() {
   return (
@@ -27,7 +28,7 @@ export default function Experience() {
         </div>
 
         <div className="space-y-12">
-          {experience.map((exp, idx) => (
+          {experience.map((exp: ExperienceItem, idx: number) => (
             <motion.div
               key={exp.company}
               initial={{ opacity: 0, y: 20 }}
@@ -57,7 +58,7 @@ export default function Experience() {
               </div>
 
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {exp.achievements.map((achievement, i) => (
+                {exp.achievements.map((achievement: string, i:number) => (
                   <li key={i} className="flex items-start gap-4 group/item">
                     <div className="mt-1 text-primary group-hover/item:scale-125 transition-transform">
                       <CheckCircle2 size={18} />

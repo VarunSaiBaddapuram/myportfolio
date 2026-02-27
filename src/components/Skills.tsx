@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { skills } from "../data/data";
 import { Code2, Terminal, Database, Users } from "lucide-react";
+import type { SkillItem } from "@/types/Portfolio";
 
 const icons = {
   "Languages": <Code2 size={20} />,
@@ -34,7 +35,7 @@ export default function Skills() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {skills.map((skillGroup, idx) => (
+          {skills.map((skillGroup: SkillItem, idx: number) => (
             <motion.div
               key={skillGroup.category}
               initial={{ opacity: 0, y: 20 }}

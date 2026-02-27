@@ -18,17 +18,20 @@ export default function Contact() {
     setLoading(true);
     setSuccess(false);
     setError("");
+    const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+    const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
+    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
 
     try {
       await emailjs.sendForm(
-        "service_55vp1es",
-        "template_9w77eyp",
+        SERVICE_ID,
+        TEMPLATE_ID,
         formRef.current,
-        "z2uBd6K84FshlDwv3"
+        PUBLIC_KEY
       );
       setSuccess(true);
       formRef.current.reset();
-    } catch {
+    } catch (err) {
       setError("Failed to send message. Try again.");
     }
 

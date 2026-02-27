@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { education, certifications } from "../data/data";
 import { GraduationCap, Award, Calendar, BookOpen } from "lucide-react";
+import type { EducationItem, CertificationItem } from "@/types/portfolio";
 
 export default function Education() {
   return (
@@ -28,7 +29,7 @@ export default function Education() {
             </motion.h2>
 
             <div className="space-y-8">
-              {education.map((edu, idx) => (
+              {education.map((edu: EducationItem, idx: number) => (
                 <motion.div
                   key={edu.institution}
                   initial={{ opacity: 0, x: -20 }}
@@ -84,7 +85,7 @@ export default function Education() {
             </motion.h2>
 
             <div className="space-y-6">
-              {certifications.map((cert, idx) => (
+              {certifications.map((cert: CertificationItem, idx: number) => (
                 <motion.div
                   key={cert.title}
                   initial={{ opacity: 0, x: 20 }}
