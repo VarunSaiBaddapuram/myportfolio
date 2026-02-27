@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { competitiveProgramming } from "../data/data";
 import { Trophy, Zap, Target, ExternalLink } from "lucide-react";
+import type { CompetitiveProgrammingItem } from "@/types/portfolio";
 
 export default function CompetitiveProgramming() {
   return (
@@ -27,7 +28,7 @@ export default function CompetitiveProgramming() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {competitiveProgramming.map((cp, idx) => (
+          {competitiveProgramming.map((cp: CompetitiveProgrammingItem, idx: number) => (
             <motion.a
               key={cp.platform}
               href={cp.url}
