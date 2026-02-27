@@ -45,7 +45,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="text-xl font-display font-bold tracking-tighter"
         >
-          VARUN<span className="text-muted-foreground">.DEV</span>
+          VARUN<span className="text-muted-foreground">.DEVELOPER</span>
         </motion.a>
 
         {/* Desktop Nav */}
