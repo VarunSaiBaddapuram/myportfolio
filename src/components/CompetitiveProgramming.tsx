@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { competitiveProgramming } from "../data/data";
 import { Trophy, Zap, Target, ExternalLink } from "lucide-react";
-import type { CompetitiveProgrammingItem } from "@/types/portfolio";
+import type { CompetitiveProgrammingItem } from "../types/Portfolio";
 
 export default function CompetitiveProgramming() {
   return (
