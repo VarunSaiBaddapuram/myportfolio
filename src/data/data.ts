@@ -179,6 +179,27 @@ export const projects = [
     ],
     github: "https://github.com/VarunSaiBaddapuram/Ransomeware-Detection",
     live: "#",
+  },
+  {
+    title: "Entry way - Ticket Booking Web Application",
+    period: "Oct 2023 - Dec 2023",
+    stack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    description: "A web application for booking tickets for Monuments, Museums, Holi Places, Art Galleries.",
+    achievements: [
+      "Users can browse and explore different cultural locations including monuments, museums, religious places, and art galleries, along with important information such as visiting hours and ticket availability.",
+      "Implemented JWT-based authentication for secure login and session management.",
+      "Designed a role-based authentication and authorization system to manage platform permissions.Each role is provided with separate dashboards and permissions to ensure controlled access to system resources.",
+      "Implemented QR-based ticket generation and verification using the Node.js QR Code library. This allows fast, contactless and paper-less verification at entry points.",
+      "Developed RESTful APIs using Node.js and Express.js to handle Authentication, Role-based access control, Ticket booking, QR ticket generation, Ticket verification. ",
+      "Integrated MongoDB for efficient data storage and retrieval."
+    ],
+    github: "https://github.com/VarunSaiBaddapuram/Entry-Way",
+    live: "#"
   }
 ];
 
