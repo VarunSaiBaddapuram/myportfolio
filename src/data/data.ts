@@ -13,7 +13,7 @@ export const personalInfo = {
 export const skills = [
   {
     category: "Languages",
-    items: ["Java", "JavaScript", "Python", "TypeScript", "Next.js"],
+    items: ["Java", "JavaScript", "Python", "TypeScript", "Next.js", "Node.js"],
   },
   {
     category: "Development & Deployment",
