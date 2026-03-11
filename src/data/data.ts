@@ -108,6 +108,32 @@ export const projects = [
     live: "#",
   },
   {
+    title: "Plant Leaf Disease Detection",
+    period: "Dec 2024 - Feb 2025",
+    stack: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "StreamLit"
+    ],
+    description: "Plant Leaf Disease Detection using Deep Learning (CNN).",
+    achievements: [
+      "Developed a deep learning based plant leaf disease detection system to automatically identify diseases from plant leaf images.",
+      "Trained the model on a dataset of 5,400 leaf images across 5 disease classes using a 70% training, 15% validation, and 15% test split.",
+      "Implemented image preprocessing using OpenCV, including resizing images to 128×128 resolution, normalization, and noise reduction to improve model learning.",
+      "Built and trained a Convolutional Neural Network (CNN) with 4 convolution layers and max-pooling layers using TensorFlow/Keras for disease classification.",
+      "Applied data augmentation techniques (rotation, flipping, zooming) which improved model generalization and reduced overfitting.",
+      "Achieved 94.2% training accuracy and 91.8% test accuracy, with Precision: 0.90, Recall: 0.89, F1-score: 0.89.",
+      "Built a simple prediction interface where users can upload leaf images and receive disease classification results in real time."
+    ],
+    github: "#",
+    live: "#",
+  },
+  {
     title: "Real Time Communication",
     period: "Dec 2023 - Feb 2024",
     stack: [
@@ -125,9 +151,35 @@ export const projects = [
       "Designed chat history APIs using MongoDB filters for efficient retrieval.",
       "Enabled file sharing with server-side persistence and message synchronization.",
     ],
-    github: "#",
+    github: "https://github.com/VarunSaiBaddapuram/Reap-Time-Messaging-Web-App",
     live: "#",
   },
+  {
+    title: "Ransomware Detection and Elimination System.",
+    period: "Jul 2023 - Oct 2023",
+    stack: [
+      "Python",
+      "Machine Learning",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "StreamLit",
+      "Virtual Box"
+    ],
+    description: "Ransomware Detection and Elimination using Machine Learning Algorithms.",
+    achievements: [
+      "Developed a machine learning based ransomware detection system that scans the entire system during initial boot-up to detect files exhibiting malicious or vulnerable behavioral patterns.",
+      "Utilized datasets from PE Machine Learning Dataset, EMBER Dataset, and Kaggle malware datasets, combining approximately 8,500 executable samples (malicious + benign) for model training and evaluation.",
+      "Engineered 10 behavioral features including file entropy, API call patterns, suspicious permission usage, file size anomalies, and abnormal execution behavior.",
+      "Performed data preprocessing and feature extraction using Pandas and NumPy, including normalization and feature scaling to improve model learning performance.",
+      "Achieved 93.6% detection accuracy with Random Forest and 90.8% accuracy with Decision Tree, with improved ransomware classification performance using ensemble learning.",
+      "Tested the complete system inside a Virtual Machine environment using VirtualBox to safely simulate ransomware behavior without affecting the host operating system.",
+      "Built a Streamlit-based interface for demonstration purposes, allowing users to upload and scan individual files and receive real-time predictions (benign or malicious)."
+    ],
+    github: "https://github.com/VarunSaiBaddapuram/Ransomeware-Detection",
+    live: "#",
+  }
 ];
 
 export const competitiveProgramming = [
