@@ -151,8 +151,8 @@ export const projects = [
       "Designed chat history APIs using MongoDB filters for efficient retrieval.",
       "Enabled file sharing with server-side persistence and message synchronization.",
     ],
-    github: "https://github.com/VarunSaiBaddapuram/Reap-Time-Messaging-Web-App",
-    live: "#",
+    github: "https://github.com/VarunSaiBaddapuram/chat-app-frontend",
+    live: "https://chat-app-frontend-flame-zeta.vercel.app/",
   },
   {
     title: "Ransomware Detection and Elimination System.",
