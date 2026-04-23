@@ -51,7 +51,7 @@ export default function Projects() {
               <div className="relative aspect-[16/10] rounded-[2.5rem] overflow-hidden mb-8 glass p-2">
                 <div className="w-full h-full rounded-[2rem] overflow-hidden relative">
                   <img
-                    src={`https://picsum.photos/seed/${project.title}/1200/800`}
+                    src={project.image || `https://picsum.photos/seed/${project.title}/1200/800`}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                     referrerPolicy="no-referrer"

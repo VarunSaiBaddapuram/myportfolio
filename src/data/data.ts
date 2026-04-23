@@ -106,6 +106,7 @@ export const projects = [
     ],
     github: "#",
     live: "#",
+    image: "/projects/corescue.png",
   },
   {
     title: "Plant Leaf Disease Detection",
@@ -153,6 +154,7 @@ export const projects = [
     ],
     github: "https://github.com/VarunSaiBaddapuram/chat-app-frontend",
     live: "https://chat-app-frontend-flame-zeta.vercel.app/",
+    image: "/projects/messaging.png",
   },
   {
     title: "Ransomware Detection and Elimination System.",
@@ -199,7 +201,7 @@ export const projects = [
       "Integrated MongoDB for efficient data storage and retrieval."
     ],
     github: "https://github.com/VarunSaiBaddapuram/Entry-Way",
-    live: "#"
+    live: "#",
   }
 ];
 

@@ -41,6 +41,7 @@ export interface ProjectItem {
   achievements: string[];
   github: string;
   live: string;
+  image?: string;
 }
 
 export interface PersonalInfo {
