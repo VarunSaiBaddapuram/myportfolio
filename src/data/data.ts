@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Varun Sai Baddapuram",
   role: "Full Stack Developer",
-  email: "varunsai1533@gmail.com",
+  email: "varunsaibaddapuram@gmail.com",
   phone: "+91-8978153351",
   github: "https://github.com/VarunSaiBaddapuram",
   linkedin: "https://www.linkedin.com/in/varun-sai1",
@@ -104,8 +104,8 @@ export const projects = [
       "Developed secure role-based authentication for users, responders, and administrators.",
       "Designed backend services to manage SOS alerts and emergency resource tracking.",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/VarunSaiBaddapuram/myportfolio",
+    live: "https://emergency-alert-frontend-five.vercel.app/",
     image: "/projects/corescue.png",
   },
   {
@@ -255,4 +255,8 @@ export const certifications = [
     title: "Cisco Networking Academy: Introduction to Data Science",
     date: "Apr 2024",
   },
+  {
+    title: "JP Morgan Chase & Co: Software Engineering Job Similation",
+    date: "Apr 2026"
+  }
 ];
