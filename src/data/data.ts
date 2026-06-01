@@ -109,6 +109,28 @@ export const projects = [
     image: "/projects/corescue.png",
   },
   {
+    title: "Real Time Communication",
+    period: "Dec 2023 - Feb 2024",
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "WebSocket",
+      "Bcrypt",
+    ],
+    description: "MERN Stack real-time messaging web application.",
+    achievements: [
+      "Built JWT-based authentication with HTTP-only cookies for secure sessions.",
+      "Implemented WebSocket-based real-time messaging with online user tracking.",
+      "Designed chat history APIs using MongoDB filters for efficient retrieval.",
+      "Enabled file sharing with server-side persistence and message synchronization.",
+    ],
+    github: "https://github.com/VarunSaiBaddapuram/chat-app-frontend",
+    live: "https://chat-app-frontend-flame-zeta.vercel.app/",
+    image: "/projects/messaging.png",
+  },
+  {
     title: "Plant Leaf Disease Detection",
     period: "Dec 2024 - Feb 2025",
     stack: [
@@ -133,28 +155,6 @@ export const projects = [
     ],
     github: "#",
     live: "#",
-  },
-  {
-    title: "Real Time Communication",
-    period: "Dec 2023 - Feb 2024",
-    stack: [
-      "MongoDB",
-      "Express.js",
-      "React.js",
-      "Node.js",
-      "WebSocket",
-      "Bcrypt",
-    ],
-    description: "MERN Stack real-time messaging web application.",
-    achievements: [
-      "Built JWT-based authentication with HTTP-only cookies for secure sessions.",
-      "Implemented WebSocket-based real-time messaging with online user tracking.",
-      "Designed chat history APIs using MongoDB filters for efficient retrieval.",
-      "Enabled file sharing with server-side persistence and message synchronization.",
-    ],
-    github: "https://github.com/VarunSaiBaddapuram/chat-app-frontend",
-    live: "https://chat-app-frontend-flame-zeta.vercel.app/",
-    image: "/projects/messaging.png",
   },
   {
     title: "Ransomware Detection and Elimination System.",
@@ -200,8 +200,8 @@ export const projects = [
       "Developed RESTful APIs using Node.js and Express.js to handle Authentication, Role-based access control, Ticket booking, QR ticket generation, Ticket verification. ",
       "Integrated MongoDB for efficient data storage and retrieval."
     ],
-    github: "https://github.com/VarunSaiBaddapuram/Entry-Way",
-    live: "#",
+    github: "https://github.com/VarunSaiBaddapuram/entryway-frontend",
+    live: "https://rotunda-azure.vercel.app/",
   }
 ];
 
