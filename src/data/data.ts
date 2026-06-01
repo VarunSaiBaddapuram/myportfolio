@@ -202,6 +202,7 @@ export const projects = [
     ],
     github: "https://github.com/VarunSaiBaddapuram/entryway-frontend",
     live: "https://rotunda-azure.vercel.app/",
+    image:"/projects/EntryWay.png"
   }
 ];
 
